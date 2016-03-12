@@ -19,6 +19,7 @@ def greatestproduct(filename):
 		if multi > greatest:
 			greatest = multi
 
+	a.close()
 	return greatest;	
 	
 print greatestproduct("Problem8.txt")
